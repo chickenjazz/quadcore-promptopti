@@ -1,0 +1,18 @@
+# virtual env
+.venv/
+
+# python
+__pycache__/
+*.pyc
+
+# notebooks
+.ipynb_checkpoints/
+
+# model artifacts
+*.bin
+*.pt
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
