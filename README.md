@@ -1,3 +1,8 @@
+# Install PyTorch with CUDA 11.8
+pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# Install remaining dependencies
+pip install -r requirements.txt
 
 # Target Prompt Structure:
 
