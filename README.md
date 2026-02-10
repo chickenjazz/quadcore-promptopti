@@ -25,3 +25,27 @@ Common mistakes to avoid
 - Has a role
 - specific task
 - examples and constraints
+
+# PIPELINE (SYSTEM OPERATION)
+
+User Prompt
+   ↓
+Heuristic Evaluation Module
+   ↓
+Prompt Optimization Engine
+   ↓
+Post-Scoring & Validation
+   ↓
+UI (FastAPI + React)
+
+# Offline Training (Model Preparation)
+
+Raw Prompt Dataset
+   ↓
+Candidate Rewrites
+   ↓
+Heuristic Scoring
+   ↓
+Preference Pair Construction
+   ↓
+DPO Fine-Tuning (LoRA)
